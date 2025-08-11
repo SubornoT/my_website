@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #f0f4f7, #e3ebf2);
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 50px 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  max-width: 500px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.header {
+  background-color: #083c76;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.header .icon {
+  width: 40px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.header h2 {
+  font-size: 18px;
+  margin: 0;
+  padding-left: 40px;
+}
+
+.main-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text {
+  padding: 20px;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+}
+.copy{
+  text-align:center;
+}
+.fhed{
+  font-size: 2px;
+  text-align: center;
+}
+/* informaation box */
+.info-box {
+      max-width: 600px;
+      margin: auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .info-box h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #333;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 600;
+      color: #333;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 15px;
+      background-color: #fafafa;
+      transition: all 0.2s;
+    }
+
+    input:focus, select:focus {
+      border-color: #007bff;
+      background-color: #fff;
+      outline: none;
+    }
+
+    .row {
+      display: flex;
+      gap: 20px;
+    }
+
+    .row > div {
+      flex: 1;
+    }
+
+    @media (max-width: 600px) {
+      .row {
+        flex-direction: column;
+      }
+    }
+     .gender-container {
+      max-width: 400px;
+      margin: 30px auto;
+      padding: 20px;
+      border: 2px solid #5e60ce;
+      border-radius: 12px;
+      background-color: #f8f9fa;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .gender-container h3 {
+      text-align: center;
+      color: #3a0ca3;
+      margin-bottom: 20px;
+    }
+
+    .checkbox-group {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .checkbox-group label {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background-color: #edf2fb;
+      padding: 10px 15px;
+      border-radius: 8px;
+      border: 1px solid #c1d3fe;
+      transition: background-color 0.3s ease;
+      cursor: pointer;
+    }
+
+    .checkbox-group input[type="radio"] {
+      width: 18px;
+      height: 18px;
+      accent-color: #4361ee;
+    }
+
+    .checkbox-group label:hover {
+      background-color: #dbe4ff;
+    }
+  .question-box {
+      max-width: 400px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #f0f4f8;
+      border: 2px solid #cbd5e1;
+      border-radius: 10px;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .question-title {
+      font-size: 18px;
+      margin-bottom: 10px;
+      font-weight: 600;
+      color: #1f2937;
+    }
+
+    .option-group {
+      display: flex;
+      gap: 20px;
+      margin-top: 5px;
+    }
+
+    .option-group label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 16px;
+      background-color: #e2e8f0;
+      padding: 8px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .option-group label:hover {
+      background-color: #cbd5e1;
+    }
+
+    .option-group input[type="radio"] {
+      accent-color: #2563eb;
+      width: 18px;
+      height: 18px;
+    }
+    .footer {
+  background-color: #1c203c;
+  color: #f0f0f0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.footer a {
+  color: #b3d4fc;
+  text-decoration: underline;
+}
+
+.footer .info-icon {
+  margin-right: 6px;
+}
+
+.powered-by {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.zoho-logo {
+  height: 20px;
+  vertical-align: middle;
+}
+
+.zoho-text {
+  font-weight: bold;
+}
